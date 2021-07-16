@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Online editor</title>
+        <link rel="stylesheet", href="ttt.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    </head>
+     
+<body>
+
+    <nav class="navbar navbar-dark" id="mainnav">
+        <span class="navbar-brand mb-0 h2" id="hj">TICK-TACK-TOE</span>
+        <div class="btmn-group dropleft">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Easy
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Medium</a>
+              <a class="dropdown-item" href="#">Impossible</a>
+              <a class="dropdown-item" href="#">Play against a friend</a>
+            </div>
+          </div>
+      </nav>
+      <div class="container">
+          <div class="row">
+              <div class="col d-flex justify-content-end" > <button type="button" class="btn btn-lg  mt-5  " id="butt1">X&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;-</button>
+              </div>
+              <div class="col d-flex justify-content-start " > <button type="button" class="btn btn-lg  mt-5 "id="butt2">O&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;-</button>   </div>
+          </div>
+      </div>
+      <p class="text-center mt-4" id="strat">Start game or select player</p>
+      <div class="container d-flex justify-content-center">
+          
+        <div class="btn-group-vertical" id="tic1">
+            <div class="btn-group btn-group-lg " id="tic11"role="group" aria-label="...">
+                <button type="button" class="btn btn-secondary px-5" id="tic111"><span>X</span></button>
+                <button type="button" class="btn btn-secondary px-5" id="tic112"><span>X</span></button>
+                <button type="button" class="btn btn-secondary px-5 " id="tic113"><span>X</span></button></div>
+                <div class="btn-group btn-group-lg" id="tic12"role="group" aria-label="...">
+                    <button type="button" class="btn btn-secondary" id="tic121"><span>X</span></button>
+                    <button type="button" class="btn btn-secondary" id="tic122"><span>X</span></button>
+                    <button type="button" class="btn btn-secondary" id="tic123"><span>X</span></button></div> 
+                     <div class="btn-group btn-group-lg" id="tic13"role="group" aria-label="...">
+                        <button type="button" class="btn btn-secondary" id="tic131"><span>X</span></button>
+                        <button type="button" class="btn btn-secondary" id="tic132"><span>X</span></button>
+                        <button type="button" class="btn btn-secondary" id="tic133"><span>X</span></button></div>
+          </div>
+    
+      </div>
+      <div class="d-flex justify-content-center my-4"> 
+        <button type="button" class="btn" id="yo">RESTART GAME</button></div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="ttt.js"></script>
+    
+</body>
+    </html>
